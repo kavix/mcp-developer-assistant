@@ -35,8 +35,8 @@ export interface BedrockAnalysisOutput {
   modelId: string;
 }
 
-// Default to widely available fast model, configurable via env
-const DEFAULT_MODEL_ID = process.env.BEDROCK_MODEL_ID || 'anthropic.claude-3-haiku-20240307-v1:0';
+// Default to Amazon Nova Micro (auto-enabled out of the box in all accounts), configurable via env
+const DEFAULT_MODEL_ID = process.env.BEDROCK_MODEL_ID || 'amazon.nova-micro-v1:0';
 const DEFAULT_REGION = process.env.AWS_REGION || 'us-east-1';
 
 /**
