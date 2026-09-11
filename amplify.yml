@@ -3,10 +3,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci --cache .npm --prefer-offline || npm install
+        - npm install --legacy-peer-deps
     build:
       commands:
-        - env | grep -E '^(AWS_|BEDROCK_)' || true
         - npm run build
   artifacts:
     baseDirectory: .next
@@ -15,5 +14,4 @@ frontend:
   cache:
     paths:
       - .next/cache/**/*
-      - .npm/**/*
       - node_modules/**/*
