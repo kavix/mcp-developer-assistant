@@ -6,7 +6,8 @@
 
 ## Demo
 
-- **Live Demo:** [https://main.d1234example.amplifyapp.com](https://main.d1234example.amplifyapp.com) *(Configure your Amplify app URL)*
+- **Live Demo:** [https://main.d19cqeoyrsnx7b.amplifyapp.com](https://main.d19cqeoyrsnx7b.amplifyapp.com)
+- **GitHub Repository:** [https://github.com/kavix/mcp-developer-assistant](https://github.com/kavix/mcp-developer-assistant)
 - **Demo Flow (60–90 seconds):**
   1. Paste a technical error (e.g. `ECONNREFUSED 127.0.0.1:5432` or `CrashLoopBackOff`).
   2. Click **Analyze Error**.

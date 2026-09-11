@@ -81,5 +81,5 @@ Building and deploying this project provided several key takeaways:
 
 ## Link to App or Repo
 
-- **Live Demo:** [https://main.d1234example.amplifyapp.com](https://main.d1234example.amplifyapp.com)
-- **GitHub Repository:** [https://github.com/your-org/mcp-developer-assistant](https://github.com/your-org/mcp-developer-assistant)
+- **Live Demo:** [https://main.d19cqeoyrsnx7b.amplifyapp.com](https://main.d19cqeoyrsnx7b.amplifyapp.com)
+- **GitHub Repository:** [https://github.com/kavix/mcp-developer-assistant](https://github.com/kavix/mcp-developer-assistant)
