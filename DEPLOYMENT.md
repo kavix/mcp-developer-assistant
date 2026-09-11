@@ -88,11 +88,11 @@ Amplify requires permission to invoke Bedrock models on your behalf:
 - **Build specification:** Amplify will automatically detect the root [`amplify.yml`](./amplify.yml) file.
 - Expand **Advanced settings**:
   - Add Environment Variable 1:
-    - **Key:** `AWS_REGION`
+    - **Key:** `BEDROCK_AWS_REGION`
     - **Value:** `us-east-1`
   - Add Environment Variable 2:
     - **Key:** `BEDROCK_MODEL_ID`
-    - **Value:** `anthropic.claude-3-haiku-20240307-v1:0`
+    - **Value:** `amazon.nova-micro-v1:0`
 - Under **App settings** &rarr; **General settings** &rarr; **Service role**:
   - Select the `AmplifyDeveloperAssistantServiceRole` created in Step 2.
 8. Click **Next** &rarr; review your settings &rarr; click **Save and deploy**.

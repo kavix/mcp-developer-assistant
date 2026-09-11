@@ -37,7 +37,7 @@ export interface BedrockAnalysisOutput {
 
 // Default to Amazon Nova Micro (auto-enabled out of the box in all accounts), configurable via env
 const DEFAULT_MODEL_ID = process.env.BEDROCK_MODEL_ID || 'amazon.nova-micro-v1:0';
-const DEFAULT_REGION = process.env.AWS_REGION || 'us-east-1';
+const DEFAULT_REGION = process.env.BEDROCK_AWS_REGION || process.env.AWS_REGION || 'us-east-1';
 
 /**
  * Initializes the Bedrock Runtime client using the AWS SDK v3
